@@ -7,30 +7,71 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+                <!-- Top bar  -->
     <nav>
             <div class="topLeftBox">
                 <H1 class="nav-heading" onclick="myAlert()">Profile!</H1>
                 <a href="#home" class="topNavList" onclick="myAlert()">Home</a>
-                <a href="#news" class="topNavList">News</a>
+                <a href="#news" class="testJS" class="topNavList" onclick="randomGenAlert()">News</a>
                 <a href="#contact" class="topNavList">Contact</a>
                 <a href="#about" class="topNavList">Help</a>
             </div>
             <button id="sign_in" type="button" onclick="signIn(sign_in)">Sign-in</button>
     </nav>
 
+                <!-- Main body -->
     <div class="main">
         <div class="main-left">
             <div class="profile">
-
+                <div class="profileTopBar"> <img class="lol" src="icons/user-circle.png" alt="user"></div>
+                <div class="profileBottomBar">
+                    <h3>Name Here</h3>
+                    <img class="mapMark" src="icons/map-marker.png" alt="map marker"> Boston
+                    <p>Developer | Engineer | Problem Solver</p>
+                    <p>Master of shadows and the internet</p>
+                    <img src="icons/gear.png" alt="gear" class="mapMark"> <a href="http://youtube.com">Youtube</a>
+                </div>
             </div>
-            <div class="education"></div>
+            <div class="education">
+                <div class="topEduBox">
+                    <p>Education</p>
+                </div>
+                <p>Coding Dojo - Full Stack Bootcamp</p>
+                <p>Dec 2023 - Mar 2024</p>
+                <p>Triple black belt in Python, MERN and C#</p>
+            </div>
         </div>
         <div class="main-right">
-            <div class="request">\</div>
-            <div class="connections"></div>
+            <div class="request">
+                <div class="reqTopBar">
+                    <p>1</p> <p>Connection Request</p>
+                </div>
+                <div>
+                    <img src="icons/user-circle.png" alt="user"> Todd E
+                    <button type="button">Check Mark</button>
+                    <button type="button">X Mark</button>
+                </div>
+                <img src="icons/user-circle.png" alt="user"> Phil K
+                <button type="button">Check Mark</button>
+                <button type="button">X Mark</button>
+            </div>
+            <div class="connections">
+                <div class="connectionsTopBar">
+                    <p>500+</p> <p>Connection Request</p>
+                </div>
+                <div class="connectionsMiddleBar">
+                    <img class="conIMG" src="icons/user-circle.png" alt="user"> <p>Adrien D</p>
+                    <img class="conIMG" src="icons/user-circle.png" alt="user"> <p>Anne J</p>
+                    <img class="conIMG" src="icons/user-circle.png" alt="user"> <p>Alayne T</p>
+                    <img class="conIMG" src="icons/user-circle.png" alt="user"> <p>Arry Y</p>
+                </div>
+                <div class="connectionsBottomBar">
+                    <a href=""http://youtube.com"">View More</a>
+                </div>
+            </div>
         </div>
     </div>
+
 
 <script src="script.js"></script>
 </body>

@@ -18,14 +18,26 @@ nav {
     align-items: center;
 }
 
-#sign-in {
+/* #sign-in {
     font-size: 120%;
     border-radius: 10px;
+    color: #fff;
+    transition: background-color 1s;
 }
+#sign-in:hover {
+background-color: orangered
+}
+
+#sign-in:focus {
+    #sign-in:active {
+        background-color: aqua;
+        transition: none;
+    }
+} */
 
 .main {
     display: flex;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
     height: 700px;
     width: 70vw;
     margin: 0 auto;
@@ -34,36 +46,125 @@ nav {
 
 .main-left {
     flex: 2;
-    background-color: lawngreen;
+    /* background-color: lawngreen; */
     display: flex;
     padding: 10px;
     flex-direction: column;
     gap: 15px;
+    border: solid gray 1px;
+    margin-right: 10px;
 }
 .main-right {
     flex: 1;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     padding: 10px;
     flex-direction: column;
-
+    border: solid gray 1px;
 }
 .request {
     flex: 1;
-    background-color: purple;
-    
+    /* background-color: purple; */
+    /* display: flex; */
+    justify-content: space-evenly;
+    border: solid gray 1px;
+    margin-bottom: 10px;
 }
 .connections {
     flex: 2;
-    background-color: olivedrab;
+    /* background-color: olivedrab; */
+
 }
 
+/* main left box  */
 .profile {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     flex: 2;
+    border: solid gray 1px;
+}
+.profileTopBar {
+    background-color: blue;
+}
+.lol{
+height: 20vh;
+/* position: absolute; */
+transform: translate(20%, 40%);
+}
+.profileBottomBar {
+    /* background-color: khaki; */
+    padding: 5px;
+    margin-top: 50px;
+
 }
 
+.mapMark {
+    height: 3vh;
+    width: 1vw;
+}
 .education {
     flex: 1;
-    background-color: orange;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    border: solid gray 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topEduBox {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    /* height: 8vh; */
+}
+
+.reqTopBar {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    /* padding: 10px; */
+    align-self: row;
+    gap: 12px;
+}
+.reqTopBar p {
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.request img {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    display: inline;
+    color: whitesmoke;
+}
+
+.connectionsTopBar {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-self: row;
+    gap: 15px;
+    margin-left: 5px;
+    /* padding: 12px; */
+
+}
+.connectionsMiddleBar {
+    display: flex;
+    flex-direction: column;
+    border: solid gray 1px;
+}
+.connectionsMiddleBar p {
+    display: flex;
+    justify-content: center;
+
+}
+.conIMG {
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+}
+.connectionsBottomBar {
+    border: solid gray 1px;
+    color: whitesmoke;
+
 }
